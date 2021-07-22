@@ -1,7 +1,7 @@
 <!-- Java Server Page: JSP -->
 <!-- Scriptlet -->
 <%
-	String nomeEmpresa = "Tesla";
+	String nomeEmpresa = (String)request.getAttribute("empresaApelido");
 	System.out.println(nomeEmpresa);
 %>
 
